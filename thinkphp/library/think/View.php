@@ -178,7 +178,6 @@ class View
     {
         // 模板变量
         $vars = array_merge(self::$var, $this->data, $vars);
-
         // 页面缓存
         ob_start();
         ob_implicit_flush(0);
